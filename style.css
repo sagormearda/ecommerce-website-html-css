@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 20px auto;
+    /* background-color: blue; */
+}
+
+.header {
+    height: 500px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.top-header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(181, 247, 247);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100%;
+    width: 15%;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.menu-bar {
+    width: 85%;
+    /* background-color: teal; */
+    height: 50px;
+    margin: auto;
+}
+
+.left-menu {
+    float: left;
+    width: 40%;
+    /* background-color: white; */
+    margin: 15px 40px;
+}
+
+.left-menu a {
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+    /* background-color: aqua; */
+}
+
+.left-menu a:hover {
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.left-menu a:active {
+    color: red;
+}
+
+.left-menu a:focus {
+    font-size: 12px;
+    /* background-color: aqua; */
+}
+
+.right-menu {
+    float: right;
+    width: 45%;
+    /* background-color: brown; */
+}
+
+.right-menu input {
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#search {
+    background-color: yellow;
+}
+
+#search:hover {
+    background-color: rgb(235, 214, 214);
+}
+
+.right-menu i {
+    /* padding: 10px; */
+    font-size: 25px;
+    margin-left: 20px;
+    color: goldenrod;
+}
+
+.right-menu select {
+    margin-left: 30px;
+}
+
+.btm-header {
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient( to top, lightblue, pink);
+}
+
+.text {
+    height: 100%;
+    width: 50%;
+    /* background-color: brown; */
+    float: left;
+}
+
+.card {
+    height: 400px;
+    width: 400px;
+    /* background-color: rgb(77, 64, 64); */
+    margin: auto;
+    text-align: center;
+}
+
+.card h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.card h2::before {
+    content: "order";
+    color: rgb(255, 0, 212);
+}
+
+.card h2::after {
+    content: "time";
+    color: rgb(0, 255, 34);
+}
+
+.card p {
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    border-radius: 40px 0px 40px 0px;
+}
+
+.card a:hover {
+    background-color: white;
+    color: black;
+}
+
+.card a :active {
+    color: rgb(189, 11, 11);
+}
+
+.card a:focus {
+    color: blue;
+    font-size: 15px;
+}
+
+.image {
+    height: 100%;
+    width: 500px;
+    /* background-color: red; */
+    float: left;
+    margin-left: 50px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+.catagory {
+    height: 400px;
+    width: 100%;
+    opacity: .8;
+    background-image: linear-gradient(to left, rgb(216, 16, 16), hotpink);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.carrot {
+    height: 250px;
+    width: 200px;
+    /* background-color: brown; */
+}
+
+.onion {
+    height: 200px;
+    width: 200px;
+    /* background-color: brown; */
+}
+
+.capsicum {
+    height: 200px;
+    width: 200px;
+    /* background-color: brown; */
+}
+
+.h-1 {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    /* padding: 10px; */
+}
+
+h1::after {
+    content: " catagories";
+    color: rgb(25, 0, 255);
+}
+
+.broccoli {
+    height: 200px;
+    width: 200px;
+    /* background-color: brown; */
+}
+
+.carrot,
+.onion,
+.capsicum,
+.broccoli {
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.carrot-image,
+.onion-image,
+.capsicum-image,
+.broccoli-image {
+    height: 180px;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+
+.carrot-image img,
+.onion-image img,
+.capsicum-image img,
+.broccoli-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.catagory p {
+    /* background-color: aqua; */
+    color: red;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.catagory a {
+    text-transform: capitalize;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 0px 30px 0px 30px;
+}
+
+.catagory a:hover {
+    background-color: brown;
+    color: white;
+}
+
+.protfolio {
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient( to top lightgray, lightyellow);
+    display: flex;
+}
+
+.protfolio-1,
+.protfolio-2 {
+    height: 60%;
+    width: 50%;
+    background-color: rgb(231, 195, 195);
+    margin: 50px;
+    box-shadow: 0px 0px 5px 4px black;
+}
+
+.protfolio-1-text,
+.protfolio-2-text {
+    height: 100%;
+    width: 40%;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    float: left;
+}
+
+.protfolio-1-text p,
+.protfolio-2-text p {
+    text-transform: capitalize;
+    font-style: italic;
+    color: red;
+    padding-top: 20px;
+}
+
+.protfolio-1-text h3,
+.protfolio-2-text h3 {
+    text-transform: capitalize;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.protfolio-1-text h4,
+.protfolio-2-text h4 {
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.protfolio-1-text a,
+.protfolio-2-text a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+}
+
+.protfolio-1-text a:hover,
+.protfolio-2-text a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.p-1-sagor,
+.protfolio-2-image {
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+}
+
+.p-1-sagor #sagor-1,
+#rahmatullah {
+    width: 60%;
+    height: 100%;
+}
+
+.latest-product {
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient( lightgrey, grey);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.head-text {
+    /* background-color: red; */
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.head-text h4 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.head-text h4::before {
+    content: "our";
+    color: hotpink;
+}
+
+.head-text h4::after {
+    content: " product";
+    color: red;
+}
+
+.latest-product-01 {
+    height: 300px;
+    width: 20%;
+    background-image: linear-gradient(white, lightpink);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.latest-product-01 {
+    box-shadow: 0px 0px 7px 0px black;
+}
+
+.latest-image {
+    width: 100%;
+    height: 160px;
+}
+
+.latest-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.latest-product-01 h2 {
+    font-size: 23px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.latest-product-01 i {
+    padding-top: 10px;
+    color: tomato;
+    font-size: 20px;
+}
+
+.latest-product-01 h3 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.latest-product-01 a {
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 20px;
+}
+
+.latest-product-01 a:hover {
+    background-color: red;
+    color: white;
+}
+
+.most-sell-product {
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(to right bottom, hotpink, lightyellow);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.h-1 {
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.h-1 h5 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(17, 0, 255);
+}
+
+.most-sell-01 {
+    height: 300px;
+    width: 20%;
+    background-color: lightslategray;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.most-sell-01:hover {
+    background-color: lightgreen;
+}
+
+.product-image {
+    height: 200px;
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 30px;
+}
+
+.product-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.most-sell-01 h5 {
+    font-size: 32px;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+
+.most-sell-01 i {
+    font-size: 20px;
+    color: red;
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    padding-top: 80px;
+    margin: auto;
+}
+
+.sub-footer,
+.informaation,
+.user-app,
+.contact-inf {
+    height: 200px;
+    width: 25%;
+    background-image: linear-gradient(to left bottom, white, pink, lightgray);
+    text-align: center;
+}
+
+.sub-footer h2,
+.sub-footer h2,
+.sub-footer h2,
+.sub-footer h2 {
+    padding-top: 20px;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+.sub-footer p {
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+
+.find-me {
+    background-color: gray;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.find-me h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.find-me i {
+    font-size: 40px;
+    color: rgb(233, 213, 223);
+    margin-bottom: 10px;
+}
+
+.find-me small {
+    text-transform: capitalize;
+    font-style: italic;
+}
